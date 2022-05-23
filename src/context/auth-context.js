@@ -24,9 +24,9 @@ const AuthContext = React.createContext({
   
     const loginHandler = () => {
       console.log('demo');
-      // localStorage.setItem('isLoggedIn', '1');
+      localStorage.setItem('isLoggedIn', '1');
     
-      // setIsLoggedIn(true);
+      setIsLoggedIn(true);
     };
   
     return (
